@@ -17,6 +17,11 @@ return new class extends Migration
             $table->integer('idade');
             $table->string('sexo');
             $table->text('sintomas');
+            $table->text('pressaoArterial');
+            $table->text('temperatura');
+            $table->text('glicemia');
+            $table->text('saturacao');
+            $table->text('batimentosCardiacos');
             $table->timestamps();
         });
     }
