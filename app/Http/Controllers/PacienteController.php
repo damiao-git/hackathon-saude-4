@@ -19,6 +19,13 @@ class PacienteController extends Controller
             'idade' => 'required|integer',
             'sexo' => 'required|string|max:1',
             'sintomas' => 'required|string',
+            'pressaoArterial' => 'string',
+            'temperatura' => 'string',
+            'glicemia'=> 'string',
+            'saturacao' => 'string',
+            'batimentosCardiacos' => 'string',
+            'email'=> 'email',
+            'tipoPessoa' => 'string',
         ]);
 
         $paciente = Paciente::create($request->all());
@@ -45,6 +52,13 @@ class PacienteController extends Controller
             'idade' => 'sometimes|required|integer',
             'sexo' => 'sometimes|required|string|max:1',
             'sintomas' => 'sometimes|required|string',
+            'pressaoArterial' => 'string',
+            'temperatura' => 'string',
+            'glicemia'=> 'string',
+            'saturacao' => 'string',
+            'batimentosCardiacos' => 'string',
+            'email'=> 'email',
+            'tipoPessoa' => 'string',
         ]);
 
         $paciente->update($request->all());
