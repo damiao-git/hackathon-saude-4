@@ -22,6 +22,8 @@ return new class extends Migration
             $table->text('glicemia');
             $table->text('saturacao');
             $table->text('batimentosCardiacos');
+            $table->string('email');
+            $table->string('tipoPaciente');
             $table->timestamps();
         });
     }
