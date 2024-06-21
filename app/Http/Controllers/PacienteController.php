@@ -32,9 +32,17 @@ class PacienteController extends Controller
         return response()->json($paciente, 201);
     }
 
-    public function show(Paciente $paciente)
+    public function show($id)
     {
-        return $paciente;
+        $paciente = Paciente::find($id);
+    
+        if (!$paciente) {
+            return response()->json([
+                'message' => 'Paciente não encontrado.'
+            ], 404);
+        }
+    
+        return response()->json($paciente, 200);
     }
 
     public function update(Request $request, Paciente $paciente)
@@ -62,4 +70,6 @@ class PacienteController extends Controller
         $paciente->delete();
         return response()->json(null, 204);
     }
+
+    
 }
