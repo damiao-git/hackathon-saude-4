@@ -301,7 +301,7 @@ A seguir, apresentamos os endpoints das APIs do nosso projeto. O aplicativo util
 Nossa equipe combina mais de 25 anos de experiência em desenvolvimento de sistemas, trazendo uma vasta expertise e conhecimento aprofundado para o nosso projeto. Nossa equipe é composta por profissionais altamente qualificados e dedicados, comprometidos em criar soluções inovadoras e eficientes para transformar o atendimento em saúde.<br>
 <br>
 <b>Para concluir esta solução e levá-la a um nível de teste em um ambiente de cliente, estimamos que serão necessários, no mínimo, seis meses de trabalho adicional. Apesar de nossos esforços intensivos durante este hackathon, o tempo disponível foi limitado para alcançar todos os objetivos desejados.</b>
-<br>
+<br><br>
 Agradecemos a oportunidade de participar desse Hackathon.<br>
 Equipe CODE CREATORS
 
