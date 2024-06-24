@@ -42,7 +42,7 @@ Também adicionam, medicamentos em uso, cirurgias, sintomas com descrição e in
 
 ## Arquitetura da Solução
 
-A solução utiliza 3 tecnologias modernas, python, laravel e ollama todas integradas, a comunicação funciona da seguinte forma: uma requisição é enviada pelo aplicativo "Tempo Certo" para a nossa API que foi desenvolvida em Laravel, em seguida a API em outra requisição para o script Python que junta os dados enviados pelo aplicativo com a base de dados, tudo isso é enviado para o Ollama que faz o processamento das informações e devolve para o aplicativo. 
+A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas integradas de maneira eficiente. A comunicação funciona da seguinte forma: uma requisição é enviada pelo aplicativo "Tempo Zero" para a nossa API desenvolvida em Laravel. Em seguida, a API faz uma requisição para o script Python, que junta os dados enviados pelo aplicativo com a base de dados. Após essa etapa, tudo é enviado para o Ollama, que processa as informações e devolve os resultados para o aplicativo.
 
 <p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/arquitetura.png" width="800" alt="CodeCreators"></p>
 
