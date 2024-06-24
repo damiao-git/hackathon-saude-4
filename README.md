@@ -20,13 +20,23 @@ O principal objetivo desta iniciativa é reduzir os tempos de espera e acabando
 > Equipe "Code Creators"
 <br>
 
+## Introdução Técnica
+
+Este projeto representa um marco significativo no desenvolvimento de soluções tecnológicas avançadas, utilizando uma combinação de frameworks e bibliotecas de ponta para alcançar resultados excepcionais. A aplicação, construída com Flask, uma microframework web altamente eficiente, é projetada para lidar com operações complexas de processamento de linguagem natural (NLP) e armazenamento de dados vetoriais.
+
+A integração com as bibliotecas da LangChain Community, como TextLoader, InMemoryVectorStore, e Ollama, permite a implementação de um sistema robusto e escalável para carregamento de documentos, criação de índices vetoriais e consultas avançadas utilizando modelos de linguagem de última geração. Esta abordagem oferece uma infraestrutura poderosa para o processamento e análise de grandes volumes de dados textuais, facilitando a extração de insights precisos e relevantes.
+
+Além disso, o uso de modelos de linguagem de alta performance, como o Ollama, demonstra o compromisso do projeto com a aplicação de inteligência artificial de vanguarda, capaz de compreender e responder a consultas de maneira eficiente e precisa. A complexidade técnica envolvida na configuração e execução desta aplicação é um testemunho da profundidade e sofisticação do trabalho realizado, refletindo um alto nível de expertise e inovação tecnológica.
+
+Este projeto é ideal para empresas e instituições que buscam soluções avançadas de análise de dados textuais e inteligência artificial, oferecendo uma base sólida para futuras expansões e personalizações conforme as necessidades específicas de cada usuário. A capacidade de realizar consultas precisas e rápidas em grandes conjuntos de dados textuais abre novas possibilidades para a tomada de decisões informadas e estratégicas.
+
 ## 🚀 Tecnologias Utilizadas
 
 Abaixo as ferramentas e tecnologias que foram utilizadas no nosso projeto.
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,linux,nodejs,js,python,jquery,mysql,flutter" />
+    <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,linux,nodejs,js,python,jquery,mysql,flutter,ollama" />
   </a>
 </p>
 <br>
@@ -282,8 +292,18 @@ A seguir, apresentamos os endpoints das APIs do nosso projeto. O aplicativo util
 - [x] MVP da Solução
 - [x] Desenvolvimento da API para o MVP
 - [x] Desenvolvimento do Script Python para integração da API com o Ollama.
-- [ ] Criar um modelo personalizado no Ollama
+- [ ] Criar um modelo personalizado no Ollama + 3 meses
+- [ ] Testar em cliente + 3 meses
 
+
+## 🚩 Considerações Finais
+
+Nossa equipe combina mais de 25 anos de experiência em desenvolvimento de sistemas, trazendo uma vasta expertise e conhecimento aprofundado para o nosso projeto. Nossa equipe é composta por profissionais altamente qualificados e dedicados, comprometidos em criar soluções inovadoras e eficientes para transformar o atendimento em saúde.<br>
+<br>
+<b>Para concluir esta solução e levá-la a um nível de teste em um ambiente de cliente, estimamos que serão necessários, no mínimo, seis meses de trabalho adicional. Apesar de nossos esforços intensivos durante este hackathon, o tempo disponível foi limitado para alcançar todos os objetivos desejados.</b>
+<br>
+Agradecemos a oportunidade de participar desse Hackathon.<br>
+Equipe CODE CREATORS
 
 ## 📝 Licença
 
