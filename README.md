@@ -136,9 +136,9 @@ if __name__ == '__main__':
 ```
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| nome | string | Obrigatório. O nome do paciente. |
-| idade | integer | Obrigatório. A idade do paciente. |
-| sexo | string | Obrigatório. O sexo do paciente (M/F). |
+| nome | string | Opcional. O nome do paciente. |
+| idade | integer | Opcional. A idade do paciente. |
+| sexo | string | Opcional. O sexo do paciente (M/F). |
 | sintomas | string | Opcional. Sintomas apresentados pelo paciente. |
 | pressao_arterial | string | Opcional. Pressão arterial do paciente. |
 | temperatura | float | Opcional. Temperatura corporal do paciente. |
