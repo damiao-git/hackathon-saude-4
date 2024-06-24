@@ -97,12 +97,10 @@ if __name__ == '__main__':
 
 ### API Laravel
 
-## Documentação da API
-
-#### Retorna todos os itens
+#### Listar Pacientes
 
 ```http
-  GET /api/items
+  GET /api/pacientes
 ```
 
 | Parâmetro   | Tipo       | Descrição                           |
