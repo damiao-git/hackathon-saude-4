@@ -40,15 +40,23 @@ Eles inserem dados como nome, local de atendimento, idade, telefone, peso, gêne
 Também adicionam, medicamentos em uso, cirurgias, sintomas com descrição e intensidade e se o paciente realizou a aferição dos sinais vitais em casa, ele também consegue adicionar no aplicativo. A IA analisa essas informações para uma pré-avaliação inicial.
 <p align="left"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/mvp2.png" width="800" alt="CodeCreators"></p>
 
+## Arquitetura da Solução
+
+A solução utiliza 3 tecnologias modernas, python, laravel e ollama todas integradas, a comunicação funciona da seguinte forma: uma requisição é enviada pelo aplicativo "Tempo Certo" para a nossa API que foi desenvolvida em Laravel, em seguida a API em outra requisição para o script Python que junta os dados enviados pelo aplicativo com a base de dados, tudo isso é enviado para o Ollama que faz o processamento das informações e devolve para o aplicativo. 
+
+<p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/arquitetura.png" width="800" alt="CodeCreators"></p>
+
 ## ⚙️ Instalação
 
-#Instalação da Inteligência Artificial
+# Instalação da Inteligência Artificial
 
 Windows
 https://ollama.com/download
 
 Linux
 curl -fsSL https://ollama.com/install.sh | sh
+
+# Script Python
 
 <p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/ollama.png" width="500" alt="CodeCreators"></p>
 
