@@ -50,10 +50,12 @@ A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas 
 
 ### Instalação da Inteligência Artificial
 
-<b>Windows</b><br>
+- <b>Windows</b><br>
+Para instalar o Ollama no Windows use o link abaixo:<br>
 https://ollama.com/download
-<br><br><br>
-<b>Linux</b>
+<br>
+- <b>Linux</b>
+Para instalar o Ollama no Linux use o comando abaixo:<br>
 ```sh
 python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
 ```
