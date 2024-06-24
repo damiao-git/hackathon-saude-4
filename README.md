@@ -42,6 +42,15 @@ Também adicionam, medicamentos em uso, cirurgias, sintomas com descrição e in
 
 ## ⚙️ Instalação
 
+Instalação da Inteligência Artificial
+
+Windows
+https://ollama.com/download
+
+Linux
+curl -fsSL https://ollama.com/install.sh | sh
+
+
 
 ## 📝 Licença
 
