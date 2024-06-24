@@ -20,7 +20,7 @@ O principal objetivo desta iniciativa é reduzir os tempos de espera e acabando
 > Equipe "Code Creators"
 <br>
 
-## Introdução Técnica
+## ⚡ Introdução Técnica
 
 Este projeto representa um marco significativo no desenvolvimento de soluções tecnológicas avançadas, utilizando uma combinação de frameworks e bibliotecas de ponta para alcançar resultados excepcionais. A aplicação, construída com Flask, uma microframework web altamente eficiente, é projetada para lidar com operações complexas de processamento de linguagem natural (NLP) e armazenamento de dados vetoriais.
 
@@ -29,6 +29,13 @@ A integração com as bibliotecas da LangChain Community, como TextLoader, InMem
 Além disso, o uso de modelos de linguagem de alta performance, como o Ollama, demonstra o compromisso do projeto com a aplicação de inteligência artificial de vanguarda, capaz de compreender e responder a consultas de maneira eficiente e precisa. A complexidade técnica envolvida na configuração e execução desta aplicação é um testemunho da profundidade e sofisticação do trabalho realizado, refletindo um alto nível de expertise e inovação tecnológica.
 
 Este projeto é ideal para empresas e instituições que buscam soluções avançadas de análise de dados textuais e inteligência artificial, oferecendo uma base sólida para futuras expansões e personalizações conforme as necessidades específicas de cada usuário. A capacidade de realizar consultas precisas e rápidas em grandes conjuntos de dados textuais abre novas possibilidades para a tomada de decisões informadas e estratégicas.
+<br><br>
+## :hammer_and_wrench:	Arquitetura da Solução
+
+A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas integradas de maneira eficiente. A comunicação funciona da seguinte forma: uma requisição é enviada pelo aplicativo "Tempo Zero" para a nossa API desenvolvida em Laravel. Em seguida, a API faz uma requisição para o script Python, que junta os dados enviados pelo aplicativo com a base de dados. Após essa etapa, tudo é enviado para o Ollama, que processa as informações e devolve os resultados para o aplicativo.
+
+<p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/arquitetura.png" width="800" alt="CodeCreators"></p>
+<br><br>
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -52,16 +59,11 @@ Também adicionam, medicamentos em uso, cirurgias, sintomas com descrição e in
 
 <br><br>
 
-## :link: Download do MVP
+## 🌐 Download do MVP
 Clique abaixo para fazer download do aplicativo Tempo Zero no formato APK.
 <br>
 <a href="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/app/Tempo-Zero-release2.apk">Donwload</a>
 <br><br>
-## :hammer_and_wrench:	Arquitetura da Solução
-
-A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas integradas de maneira eficiente. A comunicação funciona da seguinte forma: uma requisição é enviada pelo aplicativo "Tempo Zero" para a nossa API desenvolvida em Laravel. Em seguida, a API faz uma requisição para o script Python, que junta os dados enviados pelo aplicativo com a base de dados. Após essa etapa, tudo é enviado para o Ollama, que processa as informações e devolve os resultados para o aplicativo.
-
-<p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/arquitetura.png" width="800" alt="CodeCreators"></p>
 
 # ⚙️ Instalação da Inteligência Artificial
 
