@@ -52,7 +52,7 @@ A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas 
 
 <b>Windows</b><br>
 https://ollama.com/download
-<br>
+<br><br><br>
 <b>Linux</b>
 ```sh
 python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
