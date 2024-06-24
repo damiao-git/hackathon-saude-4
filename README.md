@@ -95,7 +95,8 @@ if __name__ == '__main__':
 
 ```
 
-### API Laravel
+## Endpoints das APIs do Projeto
+A seguir, apresentamos os endpoints das APIs do nosso projeto. O aplicativo utilizará essas APIs para estabelecer a conexão e realizar as operações necessárias.
 
 #### Listar Pacientes
 
