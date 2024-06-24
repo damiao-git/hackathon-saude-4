@@ -46,9 +46,7 @@ A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas 
 
 <p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/arquitetura.png" width="800" alt="CodeCreators"></p>
 
-# ⚙️ Instalação
-
-### Instalação da Inteligência Artificial
+# ⚙️ Instalação da Inteligência Artificial
 
 - <b>Windows</b><br>
 Para instalar o Ollama no Windows use o link abaixo:<br>
@@ -60,8 +58,8 @@ Para instalar o Ollama no Linux use o comando abaixo:<br>
 ```sh
 python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
 ```
+# ⚙️ Instalação do Projeto Laravel
 
-### Instalação do Projeto Laravel
 Utilize os passos abaixo para instalar o projeto Laravel para conseguir utilizar as APIs.<br>
 
 #### Clone do Projeto
@@ -97,11 +95,37 @@ DB_USERNAME=usuario_do_banco
 DB_PASSWORD=senha_do_banco
 ```
 
-#### Instalar Dependências do Composer
-Vá para o diretório do projeto clonado:
+#### Gerar a Chave da Aplicação
+Gere a chave da aplicação Laravel:
 ```sh
-cd hackathon-saude-4
+php artisan key:generate
 ```
+
+#### Configurar Permissões de Pastas
+Altere as permissões das pastas storage e bootstrap/cache para garantir que o servidor web possa gravar nelas:
+```sh
+sudo chmod -R 775 storage
+sudo chmod -R 775 bootstrap/cache
+```
+Você pode também precisar alterar o proprietário do diretório para o usuário do servidor web (por exemplo, www-data para Apache ou nginx para Nginx):
+```sh
+sudo chown -R www-data:www-data storage
+sudo chown -R www-data:www-data bootstrap/cache
+```
+
+#### Executar Migrações
+Execute as migrações para criar as tabelas do banco de dados:
+```sh
+php artisan migrate
+```
+
+#### Rodar o Servidor de Desenvolvimento
+Finalmente, execute o servidor de desenvolvimento Laravel:
+```sh
+php artisan serve
+```
+O servidor de desenvolvimento estará disponível em http://localhost:8000.
+
 
 
 ### Script Python
