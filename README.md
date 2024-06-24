@@ -56,6 +56,7 @@ https://ollama.com/download
 <br>
 - <b>Linux</b>
 Para instalar o Ollama no Linux use o comando abaixo:<br>
+
 ```sh
 python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
 ```
