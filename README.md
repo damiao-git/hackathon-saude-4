@@ -26,7 +26,7 @@ Abaixo as ferramentas e tecnologias que foram utilizadas no nosso projeto.
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,linux,nodejs,js,html,jquery,mysql,flutter" />
+    <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,linux,nodejs,js,python,jquery,mysql,flutter" />
   </a>
 </p>
 <br>
