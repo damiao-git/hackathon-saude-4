@@ -40,12 +40,13 @@ Eles inserem dados como nome, local de atendimento, idade, telefone, peso, gêne
 Também adicionam, medicamentos em uso, cirurgias, sintomas com descrição e intensidade e se o paciente realizou a aferição dos sinais vitais em casa, ele também consegue adicionar no aplicativo. A IA analisa essas informações para uma pré-avaliação inicial.
 <p align="left"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/mvp2.png" width="800" alt="CodeCreators"></p>
 
+<br><br>
 
 ## :link: Download do MVP
 Clique abaixo para fazer download do aplicativo Tempo Zero no formato APK.
-<ve>
-<a href="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/app/Tempo-Zero-release.apk">Donwload</a>
-
+<br>
+<a href="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/app/Tempo-Zero-release2.apk">Donwload</a>
+<br><br>
 ## :hammer_and_wrench:	Arquitetura da Solução
 
 A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas integradas de maneira eficiente. A comunicação funciona da seguinte forma: uma requisição é enviada pelo aplicativo "Tempo Zero" para a nossa API desenvolvida em Laravel. Em seguida, a API faz uma requisição para o script Python, que junta os dados enviados pelo aplicativo com a base de dados. Após essa etapa, tudo é enviado para o Ollama, que processa as informações e devolve os resultados para o aplicativo.
