@@ -127,8 +127,26 @@ php artisan serve
 O servidor de desenvolvimento estará disponível em http://localhost:8000.
 
 
+# ⚙️ Instalação do Script Python
 
-### Script Python
+Utilize os passos abaixo para instalar o script python e conseguir conectar com o Ollama.
+
+
+#### Instalação Python (Linux)
+Instale o Python com os comandos abaixo:
+```sh
+sudo apt update
+sudo apt install python3 python3-pip
+```
+
+#### Bibliotecas necessárias
+Instalas bibliotecas abaixo
+```sh
+pip install flask langchain-community
+```
+
+#### Script
+Copie o script abaixo e salve dentro do projeto Laravel com o nome app.py.
 
 ```python
 from flask import Flask, request, jsonify
@@ -161,6 +179,22 @@ if __name__ == '__main__':
     app.run(port=5000)
 
 ```
+
+#### Rode o script
+No terminal ou prompt de comando, execute o script:
+```sh
+python app.py
+```
+
+#### Testar a API
+Abra um cliente HTTP, como o Postman ou use o curl no terminal.<br>
+Envie uma requisição POST para http://127.0.0.1:5000/query com o seguinte corpo JSON:
+```json
+{
+    "query": "Sua consulta aqui"
+}
+```
+Você deve receber uma resposta JSON com o resultado da consulta.
 
 ## Endpoints das APIs do Projeto
 A seguir, apresentamos os endpoints das APIs do nosso projeto. O aplicativo utilizará essas APIs para estabelecer a conexão e realizar as operações necessárias.
