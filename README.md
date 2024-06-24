@@ -304,8 +304,8 @@ Nossa equipe combina mais de 25 anos de experiência em desenvolvimento de siste
 <br>
 <b>Para concluir esta solução e levá-la a um nível de teste em um ambiente de cliente, estimamos que serão necessários, no mínimo, seis meses de trabalho adicional. Apesar de nossos esforços intensivos durante este hackathon, o tempo disponível foi limitado para alcançar todos os objetivos desejados.</b>
 <br><br>
-Agradecemos a oportunidade de participar desse Hackathon.<br>
-Equipe CODE CREATORS
+Agradecemos a oportunidade de participar desse Hackathon.<br><br>
+<b>Equipe CODE CREATORS<b>
 
 ## 📝 Licença
 
