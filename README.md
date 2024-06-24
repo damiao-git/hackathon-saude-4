@@ -12,7 +12,7 @@
 O Tempo Zero  é uma plataforma de atendimento  online, que moderniza o atendimento de hospitais e clinicas para trazer agilidade no atendimento aos pacientes.
 
 O principal objetivo desta iniciativa é reduzir os tempos de espera e acabando com as longas horas passadas numa sala de espera para aqueles que necessitam de cuidados urgentes e ao mesmo tempo que garante que os recursos sejam utilizados de forma eficaz, dando prioridade aos casos que exigem atenção imediata.
-<br>
+<br><br>
 > Participar deste hackathon foi uma jornada<br>
 > incrível de aprendizado e colaboração.<br>
 > Agradecemos imensamente pela oportunidade<br>
