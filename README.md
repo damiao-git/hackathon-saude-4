@@ -48,7 +48,7 @@ A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas 
 
 ## ⚙️ Instalação
 
-# Instalação da Inteligência Artificial
+### Instalação da Inteligência Artificial
 
 Windows
 https://ollama.com/download
@@ -58,10 +58,41 @@ Linux
 python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
 ```
 
-# Script Python
+### Script Python
 
 <p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/ollama.png" width="500" alt="CodeCreators"></p>
 
+```python
+from flask import Flask, request, jsonify
+import os
+from langchain_community.document_loaders import TextLoader
+from langchain_community.vectorstores import InMemoryVectorStore
+from langchain_community.llms import Ollama
+from langchain.indexes import VectorstoreIndexCreator
+
+app = Flask(__name__)
+
+@app.route('/query', methods=['POST'])
+def query():
+    data = request.get_json()
+    query_text = data.get('query', '')
+
+    # Inicialize o modelo Ollama
+    llm = Ollama(model='llama3')
+
+    # Carregar os documentos
+    loader = TextLoader("data.txt", encoding='utf8')
+    index = VectorstoreIndexCreator().from_loaders([loader])
+
+    # Realizar a consulta
+    query_result = index.query(query_text)
+
+    return jsonify({'result': query_result})
+
+if __name__ == '__main__':
+    app.run(port=5000)
+
+```
 
 ## Road Map
 
