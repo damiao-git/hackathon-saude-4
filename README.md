@@ -56,7 +56,7 @@ https://ollama.com/download
 Linux
 ```sh
 python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
-``
+
 
 # Script Python
 
