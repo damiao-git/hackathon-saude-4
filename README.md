@@ -129,7 +129,7 @@ O servidor de desenvolvimento estará disponível em http://localhost:8000.
 
 # ⚙️ Instalação do Script Python
 
-Utilize os passos abaixo para instalar o script python e conseguir conectar com o Ollama.
+Utilize os passos abaixo para instalar o script python e conseguir conectar com o Ollama para enviar e receber dados processados.
 
 
 #### Instalação Python (Linux)
