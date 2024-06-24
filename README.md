@@ -61,6 +61,49 @@ Para instalar o Ollama no Linux use o comando abaixo:<br>
 python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
 ```
 
+### Instalação do Projeto Laravel
+Utilize os passos abaixo para instalar o projeto Laravel para conseguir utilizar as APIs.<br>
+
+#### Clone do Projeto
+```sh
+git clone https://github.com/damiao-git/hackathon-saude-4.git
+```
+
+#### Acesse o diretório
+Vá para o diretório do projeto clonado:
+```sh
+cd hackathon-saude-4
+```
+
+#### Instalar Dependências do Composer
+Certifique-se de ter o Composer instalado. Execute o seguinte comando para instalar as dependências:
+```sh
+composer install
+```
+
+#### Configurar o Arquivo ".env"
+Copie o arquivo .env.example para .env:
+```sh
+cp .env.example .env
+```
+
+Abra o arquivo .env e configure as variáveis de ambiente necessárias, como as credenciais do banco de dados:
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nome_do_banco
+DB_USERNAME=usuario_do_banco
+DB_PASSWORD=senha_do_banco
+```
+
+#### Instalar Dependências do Composer
+Vá para o diretório do projeto clonado:
+```sh
+cd hackathon-saude-4
+```
+
+
 ### Script Python
 
 ```python
