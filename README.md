@@ -148,6 +148,25 @@ if __name__ == '__main__':
 | email | string | Opcional. E-mail de contato do paciente. |
 | tipo_pessoa | string | Opcional. Tipo de pessoa (Adulto/Criança). |
 
+#### Deletar um Paciente
+
+```http
+  DELETE /api/pacientes/${id}
+```
+
+#### Checkin do Paciente
+
+```http
+  GET /api/chegada/${id}
+```
+
+#### Retorna o atendimento mais recente de um paciente
+
+```http
+  ANY /api/pacientes/atendimento/email/{email}
+```
+
+
 
 ## Road Map
 
