@@ -46,7 +46,7 @@ A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas 
 
 <p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/arquitetura.png" width="800" alt="CodeCreators"></p>
 
-## ⚙️ Instalação
+# ⚙️ Instalação
 
 ### Instalação da Inteligência Artificial
 
@@ -59,8 +59,6 @@ python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
 ```
 
 ### Script Python
-
-<p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/ollama.png" width="500" alt="CodeCreators"></p>
 
 ```python
 from flask import Flask, request, jsonify
@@ -93,6 +91,32 @@ if __name__ == '__main__':
     app.run(port=5000)
 
 ```
+
+### API Laravel
+
+## Documentação da API
+
+#### Retorna todos os itens
+
+```http
+  GET /api/items
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+
+#### Retorna um item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
+
+
 
 ## Road Map
 
