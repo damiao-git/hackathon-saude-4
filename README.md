@@ -54,7 +54,9 @@ Windows
 https://ollama.com/download
 
 Linux
-curl -fsSL https://ollama.com/install.sh | sh
+```sh
+python meu_script.pycurl -fsSL https://ollama.com/install.sh | sh
+``
 
 # Script Python
 
