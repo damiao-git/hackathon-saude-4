@@ -54,7 +54,7 @@ A solução utiliza três tecnologias modernas: Python, Laravel e Ollama, todas 
 Para instalar o Ollama no Windows use o link abaixo:<br>
 https://ollama.com/download
 <br>
-- <b>Linux</b>
+- <b>Linux</b><br>
 Para instalar o Ollama no Linux use o comando abaixo:<br>
 
 ```sh
