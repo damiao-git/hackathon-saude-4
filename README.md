@@ -103,10 +103,6 @@ if __name__ == '__main__':
   GET /api/pacientes
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | **Obrigatório**. A chave da sua API |
-
 #### Retorna um item
 
 ```http
@@ -115,15 +111,24 @@ if __name__ == '__main__':
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
-
-
+| nome | string | Obrigatório. O nome do paciente. |
+| idade | integer | Obrigatório. A idade do paciente. |
+| sexo | string | Obrigatório. O sexo do paciente (M/F). |
+| sintomas | string | Opcional. Sintomas apresentados pelo paciente. |
+| pressao_arterial | string | Opcional. Pressão arterial do paciente. |
+| temperatura | float | Opcional. Temperatura corporal do paciente. |
+| glicemia | integer | Opcional. Nível de glicemia do paciente. |
+| saturacao | integer | Opcional. Saturação de oxigênio do paciente. |
+| batimentos_cardiacos | integer | Opcional. Batimentos cardíacos por minuto. |
+| email | string | Opcional. E-mail de contato do paciente. |
+| tipo_pessoa | string | Opcional. Tipo de pessoa (Adulto/Criança). |
 
 ## Road Map
 
-- [x] Instalação do 
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [x] MVP da Solução
+- [x] Desenvolvimento da API para o MVP
+- [x] Desenvolvimento do Script Python para integração da API com o Ollama.
+- [ ] 
 
 
 ## 📝 Licença
