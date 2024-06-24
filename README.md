@@ -103,10 +103,10 @@ if __name__ == '__main__':
   GET /api/pacientes
 ```
 
-#### Retorna um item
+#### Cadastrar um Paciente
 
 ```http
-  GET /api/items/${id}
+  POST /api/pacientes
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
@@ -123,12 +123,38 @@ if __name__ == '__main__':
 | email | string | Opcional. E-mail de contato do paciente. |
 | tipo_pessoa | string | Opcional. Tipo de pessoa (Adulto/Criança). |
 
+#### Retorna um Paciente
+
+```http
+  GET /api/pacientes/${id}
+```
+
+#### Atualizar um Paciente
+
+```http
+  PUT /api/pacientes/${id}
+```
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| nome | string | Obrigatório. O nome do paciente. |
+| idade | integer | Obrigatório. A idade do paciente. |
+| sexo | string | Obrigatório. O sexo do paciente (M/F). |
+| sintomas | string | Opcional. Sintomas apresentados pelo paciente. |
+| pressao_arterial | string | Opcional. Pressão arterial do paciente. |
+| temperatura | float | Opcional. Temperatura corporal do paciente. |
+| glicemia | integer | Opcional. Nível de glicemia do paciente. |
+| saturacao | integer | Opcional. Saturação de oxigênio do paciente. |
+| batimentos_cardiacos | integer | Opcional. Batimentos cardíacos por minuto. |
+| email | string | Opcional. E-mail de contato do paciente. |
+| tipo_pessoa | string | Opcional. Tipo de pessoa (Adulto/Criança). |
+
+
 ## Road Map
 
 - [x] MVP da Solução
 - [x] Desenvolvimento da API para o MVP
 - [x] Desenvolvimento do Script Python para integração da API com o Ollama.
-- [ ] 
+- [ ] Criar um modelo personalizado no Ollama
 
 
 ## 📝 Licença
