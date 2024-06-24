@@ -42,7 +42,7 @@ Também adicionam, medicamentos em uso, cirurgias, sintomas com descrição e in
 
 ## ⚙️ Instalação
 
-Instalação da Inteligência Artificial
+#Instalação da Inteligência Artificial
 
 Windows
 https://ollama.com/download
@@ -50,6 +50,14 @@ https://ollama.com/download
 Linux
 curl -fsSL https://ollama.com/install.sh | sh
 
+<p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/ollama.png" width="500" alt="CodeCreators"></p>
+
+
+## Road Map
+
+- [x] Instalação do 
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
 
 ## 📝 Licença
