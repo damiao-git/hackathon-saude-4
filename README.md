@@ -215,7 +215,7 @@ Envie uma requisição POST para http://127.0.0.1:5000/query com o seguinte corp
 ```
 Você deve receber uma resposta JSON com o resultado da consulta.
 
-## Endpoints das APIs do Projeto
+## 💫 Endpoints das APIs do Projeto
 A seguir, apresentamos os endpoints das APIs do nosso projeto. O aplicativo utilizará essas APIs para estabelecer a conexão e realizar as operações necessárias.
 
 #### Listar Pacientes
@@ -289,7 +289,7 @@ A seguir, apresentamos os endpoints das APIs do nosso projeto. O aplicativo util
 
 
 
-## Road Map
+## ⌚ Road Map
 
 - [x] MVP da Solução
 - [x] Desenvolvimento da API para o MVP
