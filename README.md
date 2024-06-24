@@ -35,10 +35,10 @@ Abaixo as ferramentas e tecnologias que foram utilizadas no nosso projeto.
 
 Os pacientes podem iniciar o pré-atendimento em casa através do aplicativo Tempo Zero. 
 Eles inserem dados como nome, local de atendimento, idade, telefone, peso, gênero, histórico médico.
-<p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/mvp1.jpg" width="800" alt="CodeCreators"></p>
+<p align="left"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/mvp1.png" width="800" alt="CodeCreators"></p>
 <br>
 Também adicionam, medicamentos em uso, cirurgias, sintomas com descrição e intensidade e se o paciente realizou a aferição dos sinais vitais em casa, ele também consegue adicionar no aplicativo. A IA analisa essas informações para uma pré-avaliação inicial.
-<p align="center"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/mvp2.jpg" width="800" alt="CodeCreators"></p>
+<p align="left"><img src="https://github.com/damiao-git/hackathon-saude-4/blob/master/public/imagens/mvp2.png" width="800" alt="CodeCreators"></p>
 
 ## ⚙️ Instalação
 
